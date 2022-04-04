@@ -1,0 +1,30 @@
+@media only screen and (max-width:64em){
+    .page1{
+        max-height: 59.25em;
+    }
+    .page2{
+        max-height: 59.25em;
+        margin-top: 60%;
+    }
+    .page3{
+        max-height: 59.25em;
+        margin-top: 120%;
+    }
+    .page4{
+        max-height: 59.25em;
+        margin-top: 180%;
+    }
+    .page5{
+        max-height: 59.25em;
+        margin-top: 240%;
+    }
+    .page6{
+        max-height: 59.25em;
+        margin-top: 300%;
+    }
+}
+@media(prefers-reduced-motion: no-preference){
+    :root{
+    scroll-behavior: smooth;
+    }
+} 
